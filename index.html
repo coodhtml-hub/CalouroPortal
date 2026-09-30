@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portal Estudante - Conselho Acadêmico de Representantes de Turma (CART)">
+  <title>Portal Estudante | CART</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-container">
+      <a class="brand" href="index.html" aria-label="Portal Estudante - Início">
+        <div class="brand-logo">CART</div>
+        <div>
+          <strong>PORTAL ESTUDANTE</strong>
+          <span>Conselho Acadêmico de Representantes de Turma</span>
+        </div>
+      </a>
+
+      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a class="active" href="index.html">Início</a>
+        <a href="sou-calouro.html">Sou calouro</a>
+        <a href="vida-academica.html">Vida acadêmica</a>
+        <a href="apoio.html">Apoio</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <span class="eyebrow">PORTAL ESTUDANTE</span>
+        <h1>Informação e orientação para sua vida acadêmica.</h1>
+        <p>Um espaço para encontrar informações importantes, conhecer o CART e saber onde buscar ajuda.</p>
+        <a class="button" href="sou-calouro.html">Sou calouro, e agora?</a>
+      </div>
+    </section>
+
+    <section class="search-section container">
+      <h2>O que você precisa encontrar?</h2>
+      <div class="search-box">
+        <input id="siteSearch" type="search" placeholder="Digite uma dúvida, serviço ou assunto..." aria-label="Pesquisar no portal">
+        <button id="searchButton" type="button">Buscar</button>
+      </div>
+      <p id="searchMessage" class="search-message" aria-live="polite"></p>
+    </section>
+
+    <section class="container section">
+      <div class="section-heading">
+        <span class="eyebrow">ACESSO RÁPIDO</span>
+        <h2>Encontre o que procura</h2>
+      </div>
+
+      <div class="card-grid">
+        <a class="info-card" href="sou-calouro.html">
+          <span class="card-icon">🎓</span>
+          <h3>Sou calouro</h3>
+          <p>Primeiros passos e orientações para quem está chegando.</p>
+        </a>
+
+        <a class="info-card" href="vida-academica.html">
+          <span class="card-icon">📚</span>
+          <h3>Vida acadêmica</h3>
+          <p>Informações e procedimentos relacionados à trajetória acadêmica.</p>
+        </a>
+
+        <a class="info-card" href="avisos.html">
+          <span class="card-icon">📢</span>
+          <h3>Avisos</h3>
+          <p>Informações que precisam da atenção dos estudantes.</p>
+        </a>
+
+        <a class="info-card" href="calendario.html">
+          <span class="card-icon">📅</span>
+          <h3>Calendário</h3>
+          <p>Principais datas e períodos acadêmicos.</p>
+        </a>
+
+        <a class="info-card" href="comunicados.html">
+          <span class="card-icon">📣</span>
+          <h3>Comunicados</h3>
+          <p>Atualizações e informações importantes.</p>
+        </a>
+
+        <a class="info-card" href="apoio.html">
+          <span class="card-icon">🤝</span>
+          <h3>Apoio</h3>
+          <p>Orientações e canais para buscar ajuda.</p>
+        </a>
+      </div>
+    </section>
+
+    <section class="about-section">
+      <div class="container about-grid">
+        <div>
+          <span class="eyebrow">CONHEÇA O CART</span>
+          <h2>Quem é o CART?</h2>
+          <p>O Conselho Acadêmico de Representantes de Turma (CART) é apresentado neste portal como um espaço de representação e diálogo estudantil.</p>
+          <p class="placeholder-note">Este texto será substituído pela apresentação oficial do CART.</p>
+        </div>
+
+        <div class="photo-placeholder">
+          <span>📷</span>
+          <strong>Foto da equipe do CART</strong>
+          <small>Adicionar imagem em assets/img/equipe-cart.jpg</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="container section">
+      <div class="section-heading">
+        <span class="eyebrow">INFORMAÇÕES IMPORTANTES</span>
+        <h2>Fique por dentro</h2>
+      </div>
+
+      <div class="notice-grid">
+        <a href="avisos.html" class="notice-card"><strong>Avisos</strong><span>Ver avisos importantes →</span></a>
+        <a href="calendario.html" class="notice-card"><strong>Calendário</strong><span>Consultar datas →</span></a>
+        <a href="comunicados.html" class="notice-card"><strong>Comunicados</strong><span>Ver comunicados →</span></a>
+      </div>
+    </section>
+
+    <section class="help-section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">ORIENTAÇÃO</span>
+          <h2>Sabe quem procurar?</h2>
+          <p>Encontre o setor ou canal adequado para cada tipo de situação.</p>
+        </div>
+
+        <div class="help-grid">
+          <a href="setores.html" class="help-card">📚 <strong>Dúvida acadêmica</strong><span>Conheça os canais adequados.</span></a>
+          <a href="setores.html" class="help-card">📄 <strong>Documentos</strong><span>Veja onde solicitar documentos.</span></a>
+          <a href="setores.html" class="help-card">📝 <strong>Avaliações</strong><span>Encontre orientações para situações acadêmicas.</span></a>
+          <a href="setores.html" class="help-card">🏢 <strong>Conheça os setores</strong><span>Veja funções e contatos.</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div>
+        <strong>PORTAL ESTUDANTE — CART</strong>
+        <p>Conselho Acadêmico de Representantes de Turma</p>
+      </div>
+      <div>
+        <a href="index.html">Início</a>
+        <a href="sou-calouro.html">Sou calouro</a>
+        <a href="vida-academica.html">Vida acadêmica</a>
+        <a href="apoio.html">Apoio</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
