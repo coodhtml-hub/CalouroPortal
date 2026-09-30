@@ -5,11 +5,11 @@
 }
 
 :root {
-  --primary: #173b6c;
-  --secondary: #2f6fad;
+  --primary: #0e5005;
+  --secondary: #57ad2f;
   --accent: #e7b52d;
   --light: #f4f7fb;
-  --text: #1f2937;
+  --text: #0f8557;
   --muted: #64748b;
   --white: #ffffff;
   --border: #dbe3ed;
@@ -367,7 +367,7 @@ a {
 }
 
 .site-footer {
-  background: #102b4d;
+  background: #0d410c;
   color: var(--white);
   padding: 45px 0;
 }
@@ -506,3 +506,4 @@ a {
     flex-direction: column;
   }
 }
+
